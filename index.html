@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <title>Word Guess Game</title>
+</head>
+
+<body>
+
+    <h1 class="jumbotron">Word Guess Game!</h1>
+    <div class="wrapper">
+
+        <input id="guess" type="text">
+        <input type="button" value="guess" onclick="guessOne()" />
+        <input type="button" value="quit" onclick="quit()" />
+        <p id="message">&nbsp;</p>
+        <p>
+            <font size="+3"><span id="answer">Puzzle Loading ..</span></font>
+        </p>
+    </div>
+
+</body>
+
+</html>
